@@ -6,6 +6,7 @@ Authors: Siddartha Rao and Felipe Lozano-Rojas
 # 0.  Set the files to animate
 -  The .jpg/.png files that are going to be animated should be in a specific folder, and they should be organized in a way that when python takes the list of them they enter in that order.
 -  The stata code that is provided generates maps for specific variables using maptile in combination with its the state geography.
+-  It requires a balanced panel on the geographies across the time that the maps are to be generated.
 -  Information about Stata's Maptile can be found at: (https://michaelstepner.com/maptile/) 
 
 # 1.	Getting started with selenium
@@ -50,3 +51,11 @@ The values on the right of the arrows are the values that I have set
 -	Fader delay (line 81) :arrow_right: 2 
 -	Fader frame (line 84) :arrow_right: 10
 -	Lossy compression level (line 92) :arrow_right: 200
+
+# 5.	Resulting Example
+- Must Access feature of PDMPs
+![alt text](Images/MA_GIF.gif)
+
+- Daily Limits in reporting feature of PDMPs
+![alt text](Images/DL_GIF.gif)
+
