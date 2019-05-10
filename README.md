@@ -1,5 +1,6 @@
 # AnimatedMaps - GIF CREATION- Readme
 Stata Code that Generates Maps and Python code that animates them
+
 Authors: Siddartha Rao and Felipe Lozano-Rojas
 
 # 0.  Set the files to animate
@@ -40,12 +41,12 @@ SessionNotCreatedException: session not created: Chrome version must be between 
    -  If this line (120) is commented then, only the png/jpg optimization takes place
 
 -Potential Bug
-The file names for the gif() function are required in the root folder (as opposed to the newly created folder gif. If by any case you lose them, you can copy the optimized ones again outside of the gif folder. You can erase them once the final gif is created.
+   -  The file names for the gif() function are required in the root folder (as opposed to the newly created folder gif. If by any case you lose them, you can copy the optimized ones again outside of the gif folder. You can erase them once the final gif is created.
 
 # 4.	Optional Parameters (can change these values in the below lines)
 The values on the right of the arrows are the values that I have set
-•	Delay time (line 75) :arrow_right: 40
-•	Loop (line77) :arrow_right: 2
-•	Fader delay (line 81) :arrow_right: 2 
-•	Fader frame (line 84) :arrow_right: 10
-•	Lossy compression level (line 92) :arrow_right: 200
+-	Delay time (line 75) :arrow_right: 40
+-	Loop (line77) :arrow_right: 2
+-	Fader delay (line 81) :arrow_right: 2 
+-	Fader frame (line 84) :arrow_right: 10
+-	Lossy compression level (line 92) :arrow_right: 200
